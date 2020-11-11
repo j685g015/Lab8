@@ -1,0 +1,15 @@
+#userInput
+{
+  text-align: center;
+  padding: 30px;
+}
+
+#display
+{
+  display: flex;
+}
+
+#dummyText
+{
+  text-align: center;
+}

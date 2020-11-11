@@ -1,0 +1,50 @@
+body
+{
+  background-image: url("https://www.babybedding.com/images/fabric/pastel-sprinkles-fabric_medium.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+}
+
+.myProfile
+{
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+h1
+{
+  color: black;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+p
+{
+    font-size: 1rem;
+    color: black;
+    background-color: #ffe6ff;
+    border: 5px solid purple;
+    width: 550px;
+    height: 170px;
+    margin: auto;
+}
+
+a
+{
+  font-size: 1rem;
+}
+
+a.Etsy:hover
+{
+  color: purple;
+}
+
+a.Chelsweets:hover
+{
+  color: pink;
+}

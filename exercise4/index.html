@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  	<title>exercise4</title>
+		<script type="text/javascript" src="code.js"></script>
+		<link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  	<div id="display"> <div id="dummyText">
+				<p>
+					What is your favorite color? Mine is rose gold. Can you <br>
+					make the color of the box this text is in your favorite color?
+				</p>
+      </div>
+      <div id="userInput">
+      	<h4>Border (Enter the red, green, and blue 0-255 to make any color and the border width)</h4>
+        <input type="number" min="0" max="255" placeholder="red" id="r1">
+        <input type="number" min="0" max="255" placeholder="green" id="g1">
+        <input type="number" min="0" max="255" placeholder="blue" id="b1">
+        <input type="number" min="0" placeholder="width" id="w1">
+        <h4>Background Color (Enter the red, green, and blue 0-255 to make any color and the background width)</h4>
+				<input type="number" min="0" max="255" placeholder="red" id="r2">
+        <input type="number" min="0" max="255" placeholder="green" id="g2">
+        <input type="number" min="0" max="255" placeholder="blue" id="b2">
+        <input type="number" min="0" placeholder="width" id="w2"><br><br>
+        <button type="button" onclick="change()">Run</button>
+      </div>
+    </div>
+  </body>
+</html>
